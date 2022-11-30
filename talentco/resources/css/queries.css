@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1200px) {
+  .box-1 {
+    width: 300px;
+  }
+
+  .box-2 {
+    width: 300px;
+  }
+
+  .box-3 {
+    width: 300px;
+  }
+}
