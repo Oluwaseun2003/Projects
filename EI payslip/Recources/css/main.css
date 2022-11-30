@@ -1,0 +1,88 @@
+body {
+    overflow-x: hidden;
+    margin-top: 30px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+hr {top: 30%;
+    width: 130%;
+    color: #555;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 18px;
+    position: static;
+    margin-top: 0;
+    margin-left: 35%;
+    
+   
+}
+
+
+.h1{
+    background-color: #cccbcb;
+    width: 130%;
+    padding-top: 0;
+    margin-top: 0;
+}
+table th {
+    text-align: left;
+}
+
+.row1 {
+   width: 100%;
+}
+
+.row-1{
+    width: 100%;
+}
+.row-2{
+    width: 100%;
+    margin-top:60px;
+}
+
+.slip {
+    background-color: #cccbcb;  
+}
+
+.mini-slip{
+    width: 43.5%;
+    float: right;
+    background-color: #cccbcb;
+}
+.mini-sli{
+    width: 56.5%;
+    float: left;
+     background-color: #cccbcb;
+
+}
+.mini-sli th{
+   color: #cccbcb;  
+
+}
+.ray {
+    float: right;
+    width: 40%;
+}
+
+.payslip-1 {
+    width: 40%;
+    margin-left: 50px;
+    float: left;
+}
+.payslip-2 {
+    width: 40%;
+    margin-right: 50px;
+    float: right;
+}
+.payslip-3 {
+    width: 40%;
+    margin-left: 50px;
+    float: left;
+}
+.payslip-4 {
+    width: 40%;
+    margin-right: 50px;
+    float: right;
+}
