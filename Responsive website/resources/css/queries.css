@@ -1,0 +1,488 @@
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 10vw;
+    height: 12vw;
+    margin-top: 5vw;
+  }
+
+  .hero {
+    width: 100%;
+    display: block;
+  }
+
+  .sew {
+    display: block;
+  }
+  .hero h1 {
+    font-size: 4vw;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 2.196vw 0;
+  }
+
+  header {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 100vw;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+
+  .header-flex .sew {
+    position: absolute;
+    width: 70vw;
+    height: 90vw;
+    margin-top: 12vw;
+    margin-bottom: 0vw;
+    margin-left: 11vw;
+  }
+
+  .header-flex h1,
+  .header-flex h2 {
+    font-size: 5vw;
+  }
+
+  .header-flex .long-copy {
+    width: 90vw;
+    font-size: 2.5vw;
+    line-height: 3.559vw;
+    /* padding-top: 1vw; */
+    padding-bottom: 3vw;
+  }
+
+  .header-flex .btn-start {
+    font-size: 2.5vw;
+    width: 35.8vw;
+    padding-left: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 1.5vw;
+    margin-bottom: 3vw;
+  }
+
+  .header-flex .lon {
+    font-size: 2vw;
+  }
+
+  .header-flex .images img {
+    width: 20.556vw;
+  }
+
+  .mobile-nav-icon {
+    position: absolute;
+    margin-left: 85vw;
+    display: inline-block;
+  }
+
+  .mobile-nav-icon i svg {
+    margin-top: 1.5vw;
+  }
+
+  .sticky .mobile-nav-icon i svg {
+    font-size: 150%;
+    position: absolute;
+    color: #fff;
+    /* padding-bottom: 2vw; */
+  }
+  .sticky .main-nav {
+    padding-bottom: 5vw;
+  }
+
+  .main-nav li svg {
+    display: none;
+  }
+
+  .main-nav li:hover .hover-nav {
+    display: none;
+  }
+
+  .sticky .main-nav li:hover .hover-nav {
+    display: none;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 1.83vw;
+    /* margin-left: 0.5vw; */
+    padding-bottom: 5vw;
+    justify-content: center;
+    /* margin-right: -30vw; */
+  }
+
+  .main-nav li {
+    display: block;
+    margin-right: -25vw;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    text-align: center;
+    font-size: 2vw;
+    display: block;
+    border: 0;
+    border-bottom: 0vw solid transparent;
+    -webkit-transition: border-bottom 1s;
+    transition: border-bottom 1s;
+  }
+
+  .main-nav li a:hover,
+  .main-nav li a:active {
+    border-bottom: 1px dotted #b7076b;
+    padding-bottom: 0.5vw;
+  }
+
+  .main-nav .btn {
+    display: none;
+    /* padding: 0.166vw; */
+  }
+
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5 {
+    margin-left: 20vw;
+    width: 42.094vw;
+    padding-top: 16.032vw;
+    padding-left: 3.807vw;
+    padding-right: 3.821vw;
+    padding-bottom: 4.495vw;
+    box-shadow: 0px 25px 100px rgba(69, 88, 157, 0.08);
+  }
+
+  .box-1 h2,
+  .box-2 h2,
+  .box-3 h2,
+  .box-4 h2,
+  .box-5 h2 {
+    font-family: "Kotori Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.001vw;
+    color: #0f2137;
+    line-height: 3.587vw;
+  }
+
+  .box-1 p,
+  .box-2 p,
+  .box-3 p,
+  .box-4 p,
+  .box-5 p {
+    font-family: "Kotori Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.83vw;
+    line-height: 2.269vw;
+  }
+
+  .box-5 {
+    margin-bottom: 20vw;
+  }
+
+  .sec-1 {
+    margin-top: 90vw;
+    padding-top: 0;
+  }
+
+  .sec-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170vw;
+  }
+
+  .gifs {
+    margin-top: 5vw;
+    padding-left: 3vw;
+  }
+
+  .gifs img {
+    width: 70vw;
+
+    /* margin-top: 30vw; */
+  }
+
+  .txt-gif {
+    /* margin-left: 10vw; */
+  }
+
+  .txt-gif h3 {
+    font-size: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 4vw;
+  }
+  .gif-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    color: #02073e;
+    opacity: 0.6;
+    width: 52.506vw;
+    line-height: 1.772vw;
+    padding-bottom: 2.5vw;
+    text-align: center;
+  }
+
+  .txt-1 {
+    display: flex;
+    vertical-align: middle;
+    gap: 0.521vw;
+    width: 53.28vw;
+    margin-left: -2vw;
+  }
+
+  .txt-1 img {
+    width: 2vw;
+    height: 9.531%;
+  }
+  .txt-1 p {
+    font-family: "Kotori Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+
+    line-height: 2.343vw;
+    padding-bottom: 3vw;
+    color: #02073e;
+  }
+
+  .txt-2 {
+    margin-left: 6%;
+    margin-top: 1vw;
+  }
+
+  .txt-2 b {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2vw;
+  }
+
+  .sec-3 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10vw;
+  }
+
+  .cloth-img {
+  }
+
+  .cloth-img img {
+    width: 70vw;
+    height: 55vw;
+  }
+
+  .text {
+    margin-top: 8vw;
+    float: right;
+    clear: both;
+    /* margin-left: 27vw; */
+  }
+
+  .text h3 {
+    font-size: 5vw;
+    margin-bottom: 4vw;
+    text-align: center;
+  }
+
+  .steps {
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+  }
+  .steps p {
+    font-family: "Kotori Rose";
+    margin-left: 10vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    width: 80vw;
+    line-height: 3vw;
+    text-align: justify;
+    margin-bottom: 5vw;
+  }
+  .steps div {
+    font-size: 3vw;
+    padding-top: 1.4vw;
+    padding-bottom: 4.5vw;
+    padding-left: 2vw;
+    padding-right: 3.8vw;
+  }
+
+  .sec-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vw;
+  }
+
+  .core {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .core h1,
+  .core h2 {
+    margin-left: 0vw;
+    font-size: 5vw;
+    margin-bottom: 8vw;
+  }
+
+  .core h2 {
+    padding-top: 1.7vw;
+    padding-left: 0.5vw;
+  }
+
+  .issues {
+    margin-left: 10vw;
+  }
+
+  .mini-issues {
+    margin-bottom: 10vw;
+    width: 56.563vw;
+  }
+  .mini-issues p {
+    font-family: "Kotori Rose";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    width: 80.492vw;
+    line-height: 3.5vw;
+    text-align: justify;
+    margin-left: 4vw;
+  }
+
+  .mini-issues div {
+    display: flex;
+    vertical-align: middle;
+    margin-bottom: -2vw;
+  }
+
+  .mini-issues div h4 {
+    font-size: 3.646vw;
+    color: #343d48;
+    padding-bottom: 2vw;
+  }
+
+  .mini-issues p {
+    padding-top: 1vw;
+  }
+
+  .mini-issues div img {
+    width: 5.5vw;
+    /* margin-right: 1vw; */
+    margin-left: -3vw;
+  }
+
+  .sec-5 {
+    display: none;
+  }
+  .sec-6 {
+    display: none;
+  }
+  .sec-7 {
+    display: none;
+  }
+  footer {
+    height: 100vh;
+  }
+
+  .foot-1 {
+    padding-left: 8.799vw;
+    width: 50vw;
+  }
+
+  .foot-1 span {
+    display: flex;
+    margin-left: -6.5vw;
+  }
+
+  .foot-1 span img {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .foot-1 span h4 {
+    font-size: 3.2vw;
+    padding-top: 5.9vw;
+    color: #323232;
+  }
+
+  .foot-1 p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.3vw;
+
+    color: #646464;
+    width: 90.256vw;
+    line-height: 3vw;
+    padding-bottom: 7vw;
+  }
+
+  .icon i svg {
+    width: 5.269vw;
+  }
+
+  .foot-2 {
+    margin-top: 7vw;
+    margin-bottom: 9vw;
+    margin-left: -13vw;
+  }
+
+  .foot-3 {
+    padding-left: 10vw;
+  }
+
+  .foot-2 h4,
+  .foot-3 h4 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.04vw;
+    line-height: 1.464vw;
+    padding-bottom: 1.684vw;
+    color: #323232;
+  }
+
+  .foot-2 p,
+  .foot-3 p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    padding-bottom: 1.406vw;
+    color: #646464;
+  }
+
+  .footer .copy {
+    text-align: center;
+    margin-top: 95vw;
+    margin-right: 5vw;
+  }
+
+  .footer .copy p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3vw;
+  }
+}
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 0.2vw 0;
+  }
+}
