@@ -1,0 +1,157 @@
+@media only screen and (max-width: 1500px) {
+  .back {
+    margin-top: 9%;
+  }
+}
+
+/*** Big tablets t0 1500px (width smaller than 1200px) **/
+@media only screen and (max-width: 1200px) {
+  .logo {
+    margin-left: 40px;
+  }
+
+  .hero-text-box {
+    padding: 0 1%;
+    width: 105%;
+  }
+
+  .hero-text-box p {
+    padding: 0 4%;
+  }
+
+  .hero-text-box .copy {
+    margin-left: 4%;
+  }
+  .back {
+    margin-top: 10%;
+  }
+
+  .box-content-1 {
+    padding-left: 10px;
+  }
+  .box1 {
+    width: 330px;
+    padding-left: 35px;
+  }
+  .box2 {
+    width: 330px;
+    padding-left: 35px;
+  }
+  .box3 {
+    width: 330px;
+    padding-left: 35px;
+  }
+  .box4 {
+    width: 330px;
+    padding-left: 35px;
+  }
+  .box5 {
+    width: 330px;
+    padding-left: 35px;
+  }
+  .box6 {
+    width: 330px;
+    padding-left: 35px;
+  }
+
+  .black-doctor {
+    width: 85%;
+    margin-left: 40px;
+  }
+
+  .samediv {
+    padding-left: 0px;
+  }
+
+  .span-II {
+    padding-left: 10%;
+  }
+}
+
+/*** Small tablets to big tablets from 768px to 1023px**/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 50px 0;
+  }
+
+  .logo {
+    width: 25%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  header {
+    height: 95vh;
+  }
+  .main-nav {
+    display: none;
+  }
+  .back {
+    display: none;
+  }
+  .hero-text-box {
+    top: 50%;
+  }
+  .long-copy {
+    width: 92%;
+  }
+  .copy {
+    margin-top: 12%;
+    left: 18%;
+  }
+
+  .steps-box {
+    margin-top: 10px;
+  }
+
+  .step-box {
+    width: 100%;
+    float: left;
+  }
+  .work-steps {
+    width: 200%;
+  }
+
+  .long-copy-I {
+    line-height: 100%;
+    width: 75%;
+    text-align: center;
+  }
+  .box1 {
+    width: 200px;
+  }
+  .box2 {
+    width: 200px;
+  }
+  .box3 {
+    width: 200px;
+  }
+  .box4 {
+    width: 200px;
+  }
+  .box5 {
+    width: 200px;
+  }
+  .box6 {
+    width: 200px;
+  }
+  .box-content-1 {
+    width: 30%;
+  }
+  .box-content-2 {
+    width: 30%;
+  }
+  .box-content-3 {
+    width: 30%;
+  }
+}
+
+/*** Small phones to small tablets from 481px to 767px**/
+@media only screen and (max-width: 767px) {
+}
+
+/*** Small phones from 0 to 480px**/
+@media only screen and (max-width: 480px) {
+}
