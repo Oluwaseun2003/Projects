@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Form Layout</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="resources/favicon-32x32.png" alt="logo icon">
+        </nav>
+    </header>
+    <div class="contain">
+
+        <div class="head">
+
+            <h2>Learn to code by<br>watching others</h2>
+            <p>See how experienced developers solve problems in real-time.<br>
+                watching scripted tutorials is great, but understanding how<br>
+                developers think is invaluable.
+            </p>
+        </div>
+
+        <div class="form">
+            <p class="one">Try it free 7days then $20/mo. thereafter</p>
+            <form action="post">
+                <input type="text" placeholder="First Name" pattern="[a-zA-Z'-'\s]*" required><span class="a"></span>
+                <input type="text" placeholder="Last Name" pattern="[a-zA-Z'-'\s]*" required><span class="b"></span>
+                <input type="email" placeholder="Email Address" required><span class="c"></span>
+                <input type="password" placeholder="Password" minlength="8" required><span class="d"></span>
+                <button>CLAIM YOUR FREE TRIAL</button>
+                <p class="two">By clicking on the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
