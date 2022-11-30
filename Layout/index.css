@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/* BASIC SETUP */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: Lexend Deca, sans-serif;
+}
+
+.link a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #A52121;
+    font-size: 24px;
+    border: 1px solid #00CED1;
+    border-radius: 35px;
+    padding: 20px 40px;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.link a:first-of-type {
+    margin-right: 100px;
+}
+
+.link a:last-of-type {
+    margin-left: 100px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.one {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.two {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.three {
+    background-color:  hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.car-cards {
+    height: 400px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display, sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+}
+
+img {
+    width: 50px;
+    height: 30px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 1.7;
+}
+
+.one a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    width: 120px;
+    padding: 10px 0;
+    font-size: 12px;
+    transition-duration: 0.3s;
+}
+
+.one a:hover,
+.one a:active {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.two a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+    text-align: center;
+    width: 120px;
+    padding: 10px 0;
+    font-size: 12px;
+    transition-duration: 0.3s;
+}
+
+.two a:hover,
+.two a:active {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.three a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    color: hsl(179, 100%, 13%);
+    text-align: center;
+    width: 120px;
+    padding: 10px 0;
+    font-size: 12px;
+    transition-duration: 0.3s;
+}
+
+.three a:hover,
+.three a:active {
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 30px;
+    color: hsl(0, 0%, 95%);
+}
+
+@media(max-width: 500px) {
+    .cards {
+        flex-direction: column;
+        margin: 200px 0;
+
+    }
+
+    .car-cards {
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
